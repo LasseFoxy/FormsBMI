@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>BMI resultat</title>
+</head>
+<body>
+<h1>Her er din udregnede bmi</h1>
+<p>Du har indtastet <span th:text="${højde}"></span> centimeter</p>
+<p>Du har indtastet <span th:text="${vægt}"></span> kg</p>
+<p>Baseret på dine indtastede tal er din bmi: <span th:text="${bmi}"></span></p>
+</body>
+</html>
